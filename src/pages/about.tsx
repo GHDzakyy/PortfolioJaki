@@ -16,7 +16,7 @@ const About: React.FC = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-14">
-          <a href="#" className="group" data-aos="zoom-in" data-aos-delay="300">
+          <a className="group" data-aos="zoom-in" data-aos-delay="300">
             <div className="w-32 h-32 flex items-center justify-center rounded-full bg-[#FCB07E] shadow-lg transition-colors duration-300 group-hover:bg-[#FF9B5A]">
               <img src={FigmaIcon} alt="Figma" className="w-14 h-14" />
             </div>
@@ -26,7 +26,7 @@ const About: React.FC = () => {
               <img src={GithubIcon} alt="Github" className="w-14 h-14" />
             </div>
           </a>
-          <a href="#" className="group" data-aos="zoom-in" data-aos-delay="500">
+          <a className="group" data-aos="zoom-in" data-aos-delay="500">
             <div className="w-32 h-32 flex items-center justify-center rounded-full bg-[#FCB07E] shadow-lg transition-colors duration-300 group-hover:bg-[#FF9B5A]">
               <img src={AdobeIcon} alt="Adobe Illustrator" className="w-14 h-14" />
             </div>
