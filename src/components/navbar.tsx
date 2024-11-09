@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactIcon from '../assets/contact.svg';
+import ContactIcon from '../icon/contact.svg';
 
 const Navbar: React.FC = () => {
   return (

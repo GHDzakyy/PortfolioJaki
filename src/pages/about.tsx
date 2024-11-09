@@ -1,9 +1,9 @@
 // src/pages/about.tsx
 import React from 'react';
-import FigmaIcon from '../assets/figma.svg';
-import GithubIcon from '../assets/github.svg';
-import AdobeIcon from '../assets/adobeillustrator.svg';
-import InstagramIcon from '../assets/instagram.svg';
+import FigmaIcon from '../icon/figma.svg';
+import GithubIcon from '../icon/github.svg';
+import AdobeIcon from '../icon/adobeillustrator.svg';
+import InstagramIcon from '../icon/instagram.svg';
 
 const About: React.FC = () => {
   return (

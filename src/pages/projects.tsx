@@ -1,12 +1,16 @@
 // src/pages/projects.tsx
 import React, { useState } from 'react';
-import Project1 from '../assets/projects/project1.png';
-import Project2 from '../assets/projects/project2.png';
-import Project3 from '../assets/projects/project3.png';
-import Project4 from '../assets/projects/project4.png';
 
-const projects = [Project1, Project2, Project3, Project4];
-const descriptions = ["Project 1", "Project 2", "Project 3", "Project 4"];
+const projects = [
+  "/assets/project1.png",
+  "/assets/project2.png",
+  "/assets/project3.png",
+  "/assets/project4.png"
+];
+const descriptions = ["Smart Attendace is a website platform for managing a company's presence.",
+                      "This website is designed to sell clothing products that are in limited stock.",
+                      "G.O.A.T is a restaurant inventory website.",
+                      "The game we designed is a 2D game that requires opening chests to get questions and answer them correctly."];
 
 const Projects: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
