@@ -4,7 +4,7 @@ import ContactIcon from '../icon/contact.svg';
 const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 w-full z-50 flex flex-row items-center justify-between p-4 bg-white/30 backdrop-blur-md shadow-md">
-      <div className="absolute left-20 text-2xl font-bold text-[#3581B8]">Dzaky</div>
+      <div className="absolute left-20 text-2xl font-bold text-[#3581B8]">Jak</div>
       <div className="text-[15px] flex flex-row ml-[63vh] space-x-[7vh]">
         <a
           href="#home"
